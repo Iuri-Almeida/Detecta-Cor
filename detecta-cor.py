@@ -250,12 +250,18 @@ def main():
 	# Vc também pode escolher a cor (3º parâmetro) que fará o contorno do objeto.
 	# No caso da imagem (4º parâmetro), vc precisará passar o caminho onde a imagem
 	# está armazenada.
-
+	
+	# Escolha sua opção. :)
+	corMinima = (25, 100, 100)
+	corMaxima = (32, 255, 255)
+	corContorno = (255, 255, 255)
+	# caminhoImagem = "imagens/opencv-logo.png"
+	
 	# Chamando a função para detectar a cor pela webcam.
-	detectaCorWebcam((25, 100, 100), (32, 255, 255), (255, 255, 255))
+	detectaCorWebcam(corMinima, corMaxima, corContorno)
 
 	# Chamando a função para detectar a cor em uma imagem.
-	# detectaCorImagem((100, 100, 100), (130, 255, 255), (0, 0, 0), "imagens/opencv-logo.png")
+	# detectaCorImagem(corMinima, corMaxima, corContorno, caminhoImagem)
 
 
 if __name__ == "__main__":
