@@ -38,7 +38,10 @@ Ao longo desse projeto eu testei algumas cores e as deixei comentadas dentro do 
   * ![#FF8000](https://placehold.it/15/FF8000/000000?text=+) - <b>corMinima</b> = (8, 100, 100), <b>corMaxima</b> = (24, 255, 255)
 
 # Exemplos
-Alguns exemplos do uso do programa reconhecendo cores da logo do <a href="https://opencv.org/">OpenCV</a> e as contornando com a cor preta.
+Alguns exemplos do uso do programa reconhecendo cores da logo do <a href="https://opencv.org/">OpenCV</a>.
+  
+  * Fazendo o reconhecimento em vídeo da cor verde. <br><br>
+  ![detecta-cor](https://user-images.githubusercontent.com/60857927/82390444-1a08da80-9a15-11ea-9647-5195238ccb60.gif)
   
   * Fazendo o reconhecimento da cor vermelha. <br><br>
   ![opencv-vermelho-claro](https://user-images.githubusercontent.com/60857927/82385253-0a36c980-9a08-11ea-9172-23879c5b979f.png)
