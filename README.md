@@ -7,10 +7,10 @@ Esse programa foi escrito na linguagem python e faz a detecção de cores em obj
 # Como funciona?
 As funções presentes no código irão receber alguns parâmetros, dentre eles estão:
 
-  * corMinima - é a menor cor que você deseja que o programa capture.
-  * corMaxima - é a maior cor que você deseja que o programa capture.
-  * corContorno - é a cor que fará o contorno nos objetos que o programa capturar.
-  * caminhoImagem* - caso você deseja usar para reconhecer imagem, será necessário passar o caminho para buscar a imagem.
+  * <b>corMinima</b> - é a menor cor que você deseja que o programa capture.
+  * <b>corMaxima</b> - é a maior cor que você deseja que o programa capture.
+  * <b>corContorno</b> - é a cor que fará o contorno nos objetos que o programa capturar.
+  * <b>caminhoImagem</b>* - caso você deseja usar para reconhecer imagem, será necessário passar o caminho para buscar a imagem.
 
 # Instalação
 É preciso ter o python instalado no seu computador (<a href="https://www.python.org/downloads/">Python</a>, recomendado baixar a última versão). Para importar algumas funções usadas nesse projeto é preciso fazer a instalação de algumas bibliotecas, são elas:
