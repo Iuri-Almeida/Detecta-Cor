@@ -43,6 +43,8 @@ def detectaCorImagem(corMinima, corMaxima, corContorno, caminhoImagem):
 
 	# Faz a leitura da imagem.
 	imagem = cv2.imread(caminhoImagem)
+	
+	print("[INFO] Aperte qualquer tecla para fechar.")
 
 	# Redimensione o tamanho da imagem.
 	# imagem = imutils.resize(imagem, width=600)
