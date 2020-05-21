@@ -123,7 +123,10 @@ def detectaCorWebcam(corMinima, corMaxima, corContorno):
 
 	print("[INFO] Começando o programa...")
 
-	# Inicia a webcam.
+	# Abre a webcam. Você pode configurar para o programa rodar em
+	# um vídeo de sua escolha. Basta colocar o caminho do vídeo como
+	# parâmetro da função VideoCapture().
+	# Obs.: O 0 significa que é para ele abrir a webcam.
 	captura = cv2.VideoCapture(0)
 
 	print("[INFO] Programa iniciado!")
